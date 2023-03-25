@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/AsifEnglender/Aurora-job'
+                git branch: 'main', url: 'https://github.com/AsifEnglender/Aurora-job'
             }
         }
 
